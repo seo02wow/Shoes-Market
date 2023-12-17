@@ -24,7 +24,7 @@
   - IDE : Eclipse IDE for Java EE Developer
   - Database : Oracle SQL Developer ( version 18.3.0 )
   - Programming Language : JAVA, HTML, CSS, JavaScript, JSP, SQL
-  - Framework/flatform : jQuery 3.7.1, Bootstrap v5.3.1x
+  - Framework/flatform : jQuery 3.7.1, Bootstrap v5.3.1
 
 
 ------------
@@ -35,7 +35,7 @@
 ## 🙋‍♂️‍ 팀원별 역할
 
   - 공통 : 기획, 요구 사항 정의, DB 설계, 화면 구현
-  - 김서영 : 상품 CRUD, 관리자(회원정보조회), 마이페이지(주문내역조회)
+  - 김서영 : 상품 CRUD, 관리자(회원정보조회)
   - 박수진 : 문의게시판 CRUD, 공지사항 CRUD, 
   - 박주영 : 장바구니 CRUD, 결제하기
   - 박효정 : 회원 CRUD, 로그인, 회원정보 찾기, 마이페이지 
@@ -115,7 +115,8 @@
 
   * 구현 기능 설명
      - 상품명, 브랜드별 검색 
-     - 검색어에 해당하는 게시물 건수 조회<br>
+     - 검색어에 해당하는 게시물 건수 조회
+     - 상품 클릭 시 상세 페이지로 이동<br>
 
 ------------
 
@@ -131,3 +132,6 @@
      - 모든 회원 조회 가능
      - 비밀번호 제외한 정보 조회 가능
      - 페이징 처리 <br>
+
+------------
+
