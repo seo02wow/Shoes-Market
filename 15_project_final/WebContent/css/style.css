@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("font-awesome.min.css");
+
+/****** 서영 *******/
+
+
+
+/********** 상품 관리 게시글 목록 start ********/
+#ibb table {
+		width: 800px;
+		margin: 0 auto;
+		border-collapse: collapse;
+		font-size: 14px;
+}
+	
+#ibb th, #bbs td{
+		border: 1px solid black;
+		padding: 4px 10px;
+		text-align: center;
+}
+
+#ibb .title { background-color: lightgray; }
+/* 페이지 표시 영역 스타일(시작) */
+	.paging { list-style: none; }
+	.paging li {
+		float: left;
+		margin-right: 8px;
+	}
+	.paging li a {
+		text-decoration: none;
+		display: block;
+		padding: 3px 7px;
+		border: 1px solid pink;
+		font-weight: bold;
+		color: black;
+	}
+	
+	.paging .disable {
+		border: 1px solid silver;
+		padding: 3px 7px;
+		color: silver;
+	}
+	
+	.paging .now {
+		border: 1px solid lightpink;
+		padding: 3px 7px;
+		background-color:  lightpink;
+	}
+	/* 페이지 표시 영역 스타일(끝) */
+/********** 상품 관리 게시글 목록 end ********/
+/********** 메인 배경 슬라이드 ********/
+
+/* products : 제품 정렬 */
+
+.products h3{
+  font-size: 24px;
+  color: #545454;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.product-list{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.product{
+  width: 225px;
+  text-align: center;
+  display: inline-block;
+  color: #545454;
+  text-decoration: none;
+  margin-left:10px;
+  margin-right: 10px;
+  margin-bottom: 80px;
+  
+}
+
+.product-name{
+  margin-top: 20px;
+  margin-bottom: 4px;
+  
+}
+.clearfix{
+  clear: both;
+}
+
+
+/********** 제품 상세 페이지 **************/
+    
+#cart {
+  text-align: left; /* 부모 요소 중앙 정렬 */
+  display: flex;
+  justify-content: center; /* 수직 가운데 정렬 */
+   width: 800px;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* 이미지 스타일 */
+.th img {
+  width: 500px; /* 이미지 최대 너비 증가 */
+  height: auto;
+  /* display: block; */ /* 이미지 상단과 수평 정렬 */
+  margin: 0 auto 20px;
+}
+
+/* 상품 정보 컨테이너 스타일 */
+.items {
+  text-align: left;
+  display: inline-block; /* 내용을 가로 정렬 */
+  margin-left: 50px; /* 이미지와 내용 사이의 간격 조절 */
+}
+
+/* 상품 이름 스타일 */
+.itemName h2 {
+  font-size: 24px;
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* 가격 스타일 */
+.price {
+  /* font-weight: bold; */
+  font-size: 20px;
+  color: #ff0000;
+  margin-top: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* 상세 정보 스타일 */
+.itemInfo {
+  margin: 20px 0;
+}
+
+/* 타이틀 스타일 */
+.item1 {
+  text-align: left;
+}
+
+
+/* 상세 설명 */
+.desc {
+  margin: 10px 0;
+  font-size: 14px;
+}
+.itemBrand{
+  font-size: 14px;	
+}
+
+/*버튼 스타일 */
+.cart input[type="button"] {
+  border: none;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.cart input[type="text"] {
+  width: 40px; /* 수량 입력 필드 크기 조정 */
+  text-align: center;
+}
+
+/* 장바구니 담기 버튼 스타일 */
+.cart .cartBtn {
+  background-color: rgb(102, 102, 102); 
+   padding: 8px 26px;
+}
+/* 주문하기 버튼  */
+.cart .orderBtn {
+  background-color: rgb(17, 17, 17); 
+   padding: 8px 26px;
+}
+/* 수량 버튼  */
+.cart .amount {
+  background-color: #c0c0c0; 
+  padding: 5px 5px; /* 버튼 크기 조정 */
+}
+
+
+/********** 상품 관리 게시글 목록 start ********/
+#ibb table {
+		width: 800px;
+		margin-left: 10px;
+		border-collapse: collapse;
+		font-size: 14px;
+}
+	
+#ibb th, #bbs td{
+		border: 1px solid black;
+		padding: 4px 10px;
+		text-align: center;
+}
+
+#ibb .title { background-color: lightgray; }
+/* 페이지 표시 영역 스타일(시작) */
+	.paging { list-style: none; }
+	.paging li {
+		float: left;
+		margin-right: 8px;
+	}
+	.paging li a {
+		text-decoration: none;
+		display: block;
+		padding: 3px 7px;
+		border: 1px solid pink;
+		font-weight: bold;
+		color: black;
+	}
+	
+	.paging .disable {
+		border: 1px solid silver;
+		padding: 3px 7px;
+		color: silver;
+	}
+	
+	.paging .now {
+		border: 1px solid lightpink;
+		padding: 3px 7px;
+		background-color:  lightpink;
+	}
+	/* 페이지 표시 영역 스타일(끝) */
+/********** 상품 관리 게시글 목록 end ********/
+
+/*서영 end*********************************/
+
+/* main 추가 */
+
+/*  231027박수진 시작  */
+	
+/* 공지사항 내용 시작 */
+#menu_top {
+	margin: auto;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#hello, #consult{
+	min-height: 180px; 
+}
+#hello {
+	border: 2px solid #c0c0c0;
+	border-radius: 10px;
+	margin: 0px 25px; 
+	padding: 10px;
+	text-align: center;
+}
+#consult {
+	border: 2px solid #c0c0c0;
+	border-radius: 10px;
+	margin: 0px 25px;
+	padding: 10px;
+	text-align: center; 
+}
+#icon {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.inquiry_icon {
+	float: left;
+	margin: 0px 10px;
+	text-align: center;
+	
+}
+#notice {
+	text-align: center;
+}
+#main_board_notice {
+	display: flex;
+    flex-direction: row;
+}
+#main_board_notice > a {
+	font-size: 0.9em;
+	align-self: center;
+}
+#main_board_notice > h4 {
+	align-self: center;
+}
+.table > tr {
+	text-align: center;
+}
+
+/* 2301027-박수진 끝 */
+
+
+/* info section */
+.info_section {
+  position: relative;
+  display: inline-block;
+  background-color: #2d2d2d;
+  color: #ffffff;
+  width: 100%;
+}
+
+.info_section .info_form form input {
+  outline: none;
+  width: 100%;
+  padding: 7px 10px;
+}
+
+.info_section .info_form form button {
+  padding: 8px 35px;
+  border: none;
+  color: #ffffff;
+  background: #f89cab;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.info_section .row > div {
+  margin-top: 10px;
+}
+
+.info_section a {
+  text-transform: none;
+}
+
+.info_section h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.info_section h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.info_section p {
+  color: #cbc9c9;
+  font-size: 14px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.info_section button {
+  background-color: #2d2d2d;
+  color: #cbc9c9;
+  font-size: 14px;
+  outline: none !important;
+   	-webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.info_section .info_link-box a:hover {
+  color: #ffffff;
+}
+
+.info_section .info_link-box a span {
+  color: #cbc9c9;
+}
+
+.info_section .info_link-box a:hover span {
+  color: #ffffff;
+}
+.row .contanier .info_container {
+	margin-top: 0px;
+	text-align: center;
+	width: 100%;
+}
+
+/* end info section */
+/* footer section*/
+.footer_section {
+  margin-top: 45px;
+  font-weight: 500;
+}
+
+.footer_section p {
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 1.5px solid #eeeeee;
+  width: 80%;
+}
+
+.footer_section a {
+  color: #cbc9c9;
+}
+
+/* end footer section*/

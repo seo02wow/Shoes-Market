@@ -1,0 +1,85 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+	<!-- 최상단 -->
+	<header class="header_section">
+		<!-- 최상단 왼쪽 집모양  -->
+      		<!-- 최상단 SHOES MARKET 로고 -->
+      		
+      		<!-- 최상단 오른쪽  -->
+      		<div class="text-right">
+      		<a class="col-10 navbar-brand" href="controller?type=itemBulletinBoard" style="font-weight: bold; font-size: 40px;">
+        			<span style="display: block; text-align: center; margin-left: 130px; color: black;">
+          		SHOES MARKET
+        			</span>
+      		</a>
+	             <a href="login.jsp">관리자모드</a>
+	             <span style="margin: 0 10px;">|</span> <!-- 간격을 조절하는 부분 -->
+	             <a href="controller?type=logout">로그아웃</a>
+	             <span style="margin: 0 10px;"></span> <!-- 간격을 조절하는 부분 -->
+	              
+	              		
+	            
+       		<i class="fa fa-bars"  style="font-size:36px;  display: inline-block;" data-bs-toggle="dropdown" href="controller?type=brand" role="button" aria-haspopup="true" aria-expanded="false"></i>
+      			<div class="dropdown-menu">
+		            <a class="dropdown-item" href="controller?type=itemBulletinBoard">Home</a>
+		            <a class="dropdown-item" href="controller?type=itemBulletinBoard">상품관리</a>
+		            <a class="dropdown-item" href="controller?type=manageCoustomer">회원관리</a>
+		            <a class="dropdown-item" href="controller?type=managerInquiry">문의게시판</a>
+		            <a class="dropdown-item" href="controller?type=managerNoticeList">공지사항</a>
+		            
+	          </div>
+	          </div>
+	  
+	
+	<!-- 상단 메뉴바 시작 -->
+	<div>
+	<nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light" style="max-width: 100%">
+  <div class="container-fluid">
+    <a class="navbar-brand">MANAGER MENU</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor03">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="controller?type=itemBulletinBoard">상품관리</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="controller?type=manageCoustomer">회원관리</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="controller?type=managerInquiry">문의게시판</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="controller?type=managerNoticeList">공지사항</a>
+        </li>
+        
+      </ul>
+     <!--  
+      서치바
+      <form class="d-flex ml-auto" action="controller?type=search" method="post" name="myForm">
+        <select name="idx" style="width:100px; height:30px ">
+  				<option value="1" style="font-size: 12px">상품명</option>
+  				<option value="2">브랜드</option>
+  			</select>
+  			<ul class="navbar-nav me-auto">
+         <li class="nav-item">
+        </li>
+         </ul>
+        <input class="form-control me-sm-2" name="keyword" title="검색어" type="search" placeholder="Search">
+         <ul class="navbar-nav me-auto">
+         <li class="nav-item">
+        </li>
+         </ul>
+        <button class="btn btn-secondary my-2 my-sm-0" value="search" type="submit">Search</button>
+      </form> -->
+    </div>
+  </div>
+</nav>
+</div>
+</header>
+</div>
+	<!-- 상단 메뉴바 끝 -->
+
+
