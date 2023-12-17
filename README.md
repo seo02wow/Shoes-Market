@@ -49,7 +49,8 @@
 
 ## 📝 ERD  
 
-![image](https://github.com/seo02wow/Shoes-Market/assets/135966211/6588748d-18d4-478b-b065-b78afca0c80d)
+![DB-ERD](https://github.com/seo02wow/Shoes-Market/assets/135966211/5bfed4dd-7576-4e81-a3bf-1a5b7bbd0caa)
+
 
 
 
