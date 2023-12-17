@@ -124,7 +124,7 @@
 
 <img width="960" alt="회원게시판" src="https://github.com/seo02wow/Shoes-Market/assets/135966211/c7d1c0d0-8e31-43a0-bc22-da8ecaf4003b">
 
-  
+  <br>
 
 **회원관리 게시판 페이지**
 
